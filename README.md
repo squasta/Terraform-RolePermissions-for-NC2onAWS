@@ -5,7 +5,7 @@ A Terraform way to create  in AWS IAM roles and permissions mandatory for Nutani
 This code is the Terraform version of the Nutanix official CloudFormation Template provided to set up roles and permissions required for deploying and managing Nutanix Cloud Clusters on AWS available at the following URL :
 https://s3.us-east-1.amazonaws.com/prod-gcf-567c917002e610cce2ea/aws_cf_clusters_high.json and refered in Nutanix NC2 on AWS Deployment Guide available here : https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Clusters-AWS:aws-clusters-aws-getting-started-c.html 
 
-/!\ This code is PROVIDED AS IS without any official support of Nutanix /!\
+/!\ This code is PROVIDED AS IS without any official support of Nutanix /!\\
 It can be used if you don't want to create CF Stack and prefer to use Terraform to deploy the roles and permissions
 
 
