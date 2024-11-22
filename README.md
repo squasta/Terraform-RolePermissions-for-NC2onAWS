@@ -1,5 +1,5 @@
 # Terraform-RolePermissions-for-NC2onAWS
-A Terraform way to create  in AWS IAM roles and permissions mandatory for Nutanix Cloud Clusters on AWS
+A Terraform way to create, in AWS IAM, roles and permissions mandatory for Nutanix Cloud Clusters on AWS
 
 
 This code is the **Terraform version of the Nutanix official CloudFormation Template** provided to set up roles and permissions required for deploying and managing Nutanix Cloud Clusters on AWS available at the following URL :
