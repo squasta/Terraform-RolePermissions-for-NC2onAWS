@@ -733,3 +733,14 @@ resource "aws_iam_role_policy" "cluster_node_ec2_read_access_for_service_quotas"
     ]
   })
 }
+
+
+# IAM Instance Profile
+# cf. https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_instance_profile
+# Use an instance profile to pass an IAM role to an EC2 instance
+# cf. 
+resource "aws_iam_instance_profile" "cluster_node_profile" {
+  name = var.cluster_node_role_name
+  role = aws_iam_role.cluster_node_role.name
+}
+

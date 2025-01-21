@@ -1,1 +1,1 @@
-gateway_external_id="please put your nc2 customer ID here"
+gateteway_external_id="effd80b7-35fe-4b67-a327-e3aedf0e8c24"
