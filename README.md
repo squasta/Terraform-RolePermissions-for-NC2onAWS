@@ -20,10 +20,21 @@ First clone this repo, then read the content of aws_cf_clusters_high-terraform.t
 
 You need to install [terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli ) (I did not test it with [opentofu](https://opentofu.org/docs/intro/install/) but it should also work)
 
+
+VERY VERY VERY Important : you need to provide your Nutanix NC2 Customer ID !!!
+
+For that, open the NC2/CM portal (https://cloud.nutanix.com), On the left part of UI click on Customers, then click on your customer name
+
+<img width='1024' src='./images/NC2portal-1.png'/> 
+
+<img width='1024' src='./images/NC2portal-2.png'/> 
+
+Get the Customer ID in the URL, copy paste the value in configuration.tfvars for the gateway_external_id variable
+
 ### Deployment
 
   ```bash
   terraform init
-  terraform plan 
-  terraform apply
+  terraform plan   --var-file=configuration.tfvars
+  terraform apply  --var-file=configuration.tfvars
   ```

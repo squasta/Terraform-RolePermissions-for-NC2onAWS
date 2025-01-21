@@ -63,8 +63,9 @@ variable gateway_role_name {
 variable gateway_external_id {
   description = "External Id for Gateway to utilize when assuming role."
   type = string
-  # This is Nutanix AWS Account for MCM DO NOT CHANGE IT
-  default = "effd80b7-35fe-4b67-a327-e3aedf0e8c24"
+  # This is your NC2 Customer ID to be used in the ExternalId field of the AssumeRole API call.
+  # Customer ID can be see in cloud.nutanix.com URL (click on your customer account to see all organization details, customer ID is in the URL)
+
 }
 
 variable cluster_node_role_name {
