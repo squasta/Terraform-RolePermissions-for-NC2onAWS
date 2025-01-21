@@ -1,1 +1,1 @@
-gateway_external_id="put your nc2 customer ID here"
+gateway_external_id="please put your nc2 customer ID here"
