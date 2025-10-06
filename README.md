@@ -24,9 +24,8 @@ You need to install [terraform](https://developer.hashicorp.com/terraform/tutori
 VERY VERY VERY Important : you need to provide your Nutanix NC2 Customer ID !!!
 
 For that, open the NC2/CM portal (https://cloud.nutanix.com), On the left part of UI click on Customers
-<img width='1024' src='./images/NC2portal-1.png'/> 
 
-Then click on the 3 dots at the end of the line of your customer name
+Then click on the 3 dots at the end of the line of your customer name and click on Settings
 
 <img width='1024' src='./images/NC2portal-2.png'/> 
 
