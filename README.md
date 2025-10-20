@@ -31,7 +31,7 @@ Then click on the 3 dots at the end of the line of your customer name and click 
 
 <img width='1024' src='./images/NC2portal-3.png'/> 
 
-Get the Customer ID in the URL, copy paste the value in configuration.tfvars for the gateway_external_id variable
+Get the Customer ID, copy paste the value in configuration.tfvars for the gateway_external_id variable
 
 ### Deployment
 
